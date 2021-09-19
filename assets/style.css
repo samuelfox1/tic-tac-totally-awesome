@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(137, 43, 226, 0.329);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* #board {
+} */
+
+.row {
+    display: flex;
+}
+
+.box {
+    height:100px;
+    width:100px;
+    border: solid grey 1px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
